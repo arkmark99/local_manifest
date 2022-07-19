@@ -1,1 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
 
+ <!-- Trees -->
+ <project path="device/oppo/CPH1859" name="arkmark99/android_device_oppo_CPH1859.git" remote="github" revision="twelve" />
+ <project path="device/realme/mt6771-common" name="arkmark99/android_device_realme_mt6771-common.git" remote="github" revision="twelve" />
+ <project path="vendor/oppo/CPH1859" name="arkmark99/android_vendor_oppo_CPH1859.git" remote="github" revision="twelve" />
+ <project path="kernel/realme/mt6771" name="arkmark99/kernel_realme_mt6771.git" remote="github" revision="android-12.0" />
+ <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr.git" remote="github" revision="twelve" />
+  
+</manifest>

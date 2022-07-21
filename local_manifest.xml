@@ -14,5 +14,7 @@
  <!-- Extras -->
   <project path="device/mediatek/sepolicy_vndr" name="arkmark99/device_mediatek_sepolicy_vndr" remote="github" revision="twelve"/>
   <project path="prebuilts/clang/host/linux-x86/clang-r353983c1" name="arkmark99/clang-r353983c1" remote="github" revision="master"/>
+  <remove-project name="packages/SettingsLib/src/com/android/settingslib/display/BrightnessUtils.java" />
+  <project path="packages/SettingsLib/src/com/android/settingslib/display/BrightnessUtils.java" name="arkmark99/cherish_android_frameworks_base/blob/twelve-one/packages/SettingsLib/src/com/android/settingslib/display/BrightnessUtils.java" remote="github" revision="twelve-one" />
   
 </manifest>

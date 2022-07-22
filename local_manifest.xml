@@ -14,7 +14,11 @@
  <!-- Extras -->
   <project path="device/mediatek/sepolicy_vndr" name="arkmark99/device_mediatek_sepolicy_vndr" remote="github" revision="twelve"/>
   <project path="prebuilts/clang/host/linux-x86/clang-r353983c1" name="arkmark99/clang-r353983c1" remote="github" revision="master"/>
-  <remove-project name="android_frameworks_base" />
-  <project path="frameworks/base/" name="arkmark99/cherish_android_frameworks_base" remote="github" revision="twelve-one" />
+  
+  <remove-project name="fluid_frameworks_base" />
+  <project path="frameworks/base/" name="arkmark99/fluid_frameworks_base" remote="github" revision="fluid-12.1" />
+  
+  <remove-project name="fluid_frameworks_opt_telephony" />
+  <project path="frameworks/opt/telephony/" name="arkmark99/fluid_frameworks_opt_telephony" remote="github" revision="fluid-12.1" />
   
 </manifest>

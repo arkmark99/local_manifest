@@ -2,7 +2,7 @@
 <manifest>
   
  <!-- Device Trees -->
-  <project path="device/oppo/CPH1859" name="arkmark99/android_device_oppo_CPH1859" remote="github" revision="ssos"/>
+  <project path="device/oppo/CPH1859" name="arkmark99/android_device_oppo_CPH1859" remote="github" revision="cherish"/>
   <project path="device/realme/mt6771-common" name="arkmark99/android_device_realme_mt6771-common" remote="github" revision="twelve"/>
  
  <!-- Kernel -->
@@ -16,8 +16,6 @@
   <project path="prebuilts/clang/host/linux-x86/clang-r353983c1" name="arkmark99/clang-r353983c1" remote="github" revision="master"/>
   
   <remove-project name="android_frameworks_base" />
-  <project path="frameworks/base/" name="arkmark99/ssos_android_frameworks_base" remote="github" revision="android_12" />
-
-
-
+  <project path="frameworks/base/" name="arkmark99/cherish_android_frameworks_base" remote="github" revision="twelve-one" />
+  
 </manifest>
